@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-container": "#0d4582", "on-error": "#690005", "error": "#ffb4ab", "inverse-surface": "#e2e2e8", "surface-variant": "#333539", "surface-container": "#1e2024", "on-tertiary-fixed-variant": "#414751", "surface-bright": "#37393e", "on-background": "#e2e2e8", "primary-fixed-dim": "#a8c8ff", "primary": "#b5cfff", "tertiary": "#c9ceda", "on-error-container": "#ffdad6", "tertiary-container": "#adb3be", "secondary": "#98d2bd", "secondary-fixed-dim": "#98d2bd", "surface-container-high": "#282a2e", "secondary-fixed": "#b4efd9", "on-secondary": "#00382b", "on-primary": "#003061", "primary-fixed": "#d5e3ff", "outline-variant": "#424750", "surface-dim": "#111318", "on-secondary-fixed-variant": "#145040", "surface-container-highest": "#333539", "surface-container-low": "#1a1c20", "error-container": "#93000a", "on-surface-variant": "#c3c6d1", "on-tertiary-fixed": "#161c24", "on-secondary-container": "#87c1ac", "on-surface": "#e2e2e8", "secondary-container": "#145040", "on-secondary-fixed": "#002118", "primary-container": "#8ab4f8", "surface-container-lowest": "#0c0e12", "inverse-primary": "#315f9d", "on-tertiary": "#2b313a", "inverse-on-surface": "#2f3035", "tertiary-fixed-dim": "#c1c7d2", "outline": "#8d919b", "surface-tint": "#a8c8ff", "on-tertiary-container": "#3f454f", "surface": "#111318", "on-primary-fixed-variant": "#114784", "background": "#111318", "tertiary-fixed": "#dde3ef", "on-primary-fixed": "#001b3c" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-xs": "0.25rem", "space-sm": "0.5rem", "space-lg": "1.5rem", "gutter-mobile": "1rem", "space-xl": "2.5rem", "space-md": "1rem", "margin-mobile": "1.25rem", "gutter": "1.5rem", "margin": "3rem" }, "fontFamily": { "label-mono": [ "JetBrains Mono" ], "code-sm": [ "JetBrains Mono" ], "headline-md": [ "Geist" ], "headline-lg": [ "Geist" ], "display-hero": [ "Geist" ], "code-md": [ "JetBrains Mono" ], "headline-lg-mobile": [ "Geist" ], "display-hero-mobile": [ "Geist" ], "body-md": [ "Geist" ], "body-lg": [ "Geist" ], "body-sm": [ "Geist" ], "headline-sm": [ "Geist" ] }, "fontSize": { "label-mono": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "500" } ], "code-sm": [ "11px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500" } ], "headline-md": [ "22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "500" } ], "headline-lg": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "display-hero": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "600" } ], "code-md": [ "13px", { "lineHeight": "20px", "letterSpacing": "-0.01em", "fontWeight": "400" } ], "headline-lg-mobile": [ "26px", { "lineHeight": "34px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "display-hero-mobile": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "body-md": [ "14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" } ], "body-lg": [ "16px", { "lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "400" } ], "body-sm": [ "13px", { "lineHeight": "18px", "letterSpacing": "0.005em", "fontWeight": "400" } ], "headline-sm": [ "18px", { "lineHeight": "24px", "letterSpacing": "-0.005em", "fontWeight": "500" } ] } } } };</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-[1200px] mx-auto px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><a class="flex items-center gap-space-sm group" data-path="home" href="#"><img alt="SHANE Monogram Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VXyxIZL9MPSh_6wU5gHPq-X0xVamqAJ9V5CKMeh-rJPO9HPN9kzqq65ZJMFTIfQ_WmS0cOG67BAFkLhuzQFJJUH15gsLDDB_vencoqqrnBJw6WArUDlY0G9kGKWwxmZzFrW99IShrQXawtmy6RrjaBNmKTo-p11UQnOd3i9uh-I666D6ah14l4o77S86-PXP7wxWdvveCsEp6WBoMqDP0gKEc9F8ZB73kB9ENX9gepP3DkWsuOlMLhJg"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">SHANE</span><span class="font-code-sm text-code-sm text-outline tracking-wider uppercase -mt-1 hidden sm:inline">Architecting Freedom</span></div></a><div class="hidden xl:flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-surface-container-high/60"><span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-secondary"></span></span><span class="font-code-sm text-code-sm text-secondary">Online / Tokyo &amp; Remote</span></div></div><nav class="hidden lg:flex items-center p-1 rounded-xl bg-surface-container-low/60 gap-1" data-active-classes="bg-surface-container-high text-on-surface font-headline-sm font-medium rounded-lg"><a aria-current="page" class="px-space-sm py-1.5 transition-all bg-surface-container-high text-on-surface font-headline-sm font-medium rounded-lg" data-path="home" href="#">Home</a><a class="px-space-sm py-1.5 font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all rounded-lg" data-path="projects" href="#">Projects</a><a class="px-space-sm py-1.5 font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all rounded-lg" data-path="research" href="#">Research</a><a class="px-space-sm py-1.5 font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all rounded-lg" data-path="life" href="#">Life</a><a class="px-space-sm py-1.5 font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all rounded-lg" data-path="nomad" href="#">Nomad</a><a class="px-space-sm py-1.5 font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all rounded-lg" data-path="about" href="#">About</a></nav><div class="flex items-center gap-space-sm shrink-0"><div class="hidden md:flex items-center gap-1.5 px-space-sm py-1 rounded-lg bg-surface-container-high text-on-surface-variant font-code-sm text-code-sm hover:text-on-surface hover:bg-surface-bright transition-all cursor-pointer"><span class="material-symbols-outlined text-[14px]">terminal</span><span>⌘K</span></div><div class="hidden sm:flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-secondary-container/40"><span class="relative flex h-1.5 w-1.5"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span><span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-secondary"></span></span><span class="font-code-sm text-code-sm text-secondary font-medium">Available for Q3</span></div><div class="flex items-center gap-space-xs"><a class="p-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all flex items-center justify-center" data-path="code-repository" href="#"><span class="material-symbols-outlined text-[18px]">code</span></a><a class="p-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all flex items-center justify-center" data-path="broadcast" href="#"><span class="material-symbols-outlined text-[18px]">share</span></a></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-1"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Subtle Spatial Matrix Overlay with Hairline Coordinates -->
+<div class="relative w-full overflow-hidden">
+<!-- Ambient micro-glow backdrop -->
+<div class="absolute top-12 left-1/2 -translate-x-1/2 w-[850px] h-[340px] bg-primary/5 blur-[120px] pointer-events-none rounded-full"></div>
+<div class="absolute top-96 -right-24 w-[420px] h-[420px] bg-secondary/5 blur-[140px] pointer-events-none rounded-full"></div>
+<div class="max-w-[1200px] mx-auto px-gutter relative z-10 pt-8 pb-16">
+<!-- Coordinate & Meta Ribbon -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm mb-space-lg">
+<div class="flex items-center gap-space-xs font-label-mono text-label-mono text-outline">
+<span class="text-secondary">[35.6762° N, 139.6503° E]</span>
+<span class="text-surface-variant">•</span>
+<span>SHANE // NODE: TOKYO-CORE</span>
+</div>
+<div class="flex items-center gap-space-md">
+<div class="flex items-center gap-1.5 px-space-sm py-0.5 rounded bg-surface-container font-label-mono text-code-sm text-on-surface-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>UPTIME 99.98%</span>
+</div>
+<div class="font-label-mono text-code-sm text-outline">EPOCH #2025.1</div>
+</div>
+</div>
+<!-- Hero Statement -->
+<div class="flex flex-col gap-space-md max-w-4xl">
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="px-space-sm py-1 rounded bg-surface-container-high font-label-mono text-code-sm text-primary tracking-wider uppercase">ARCHITECTING FREEDOM</span>
+<span class="text-surface-variant">/</span>
+<span class="font-label-mono text-code-sm text-on-surface-variant tracking-wider uppercase">SYSTEM ARCHITECT &amp; INDEPENDENT RESEARCHER</span>
+</div>
+<h1 class="font-display-hero text-display-hero text-on-surface tracking-tight leading-tight">
+          Architecting resilient systems, crafting <span class="text-primary font-medium">quiet software</span>, and living on the edge of autonomy.
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mt-space-xs">
+          致力于高可用分布式系统架构、轻量边缘存储协议与低感知交互工具的独立研发。信奉理性工程美学，以确定的系统韧性对抗无序，实践全球旅居与技术自足。
+        </p>
+<!-- Command / CTA Row -->
+<div class="flex flex-wrap items-center gap-space-md mt-space-sm">
+<a class="inline-flex items-center gap-space-sm px-space-lg py-2.5 rounded-lg bg-primary-container text-on-primary font-body-md font-medium shadow-md shadow-primary/10 hover:bg-primary transition-all" href="#projects">
+<span>Explore Projects 探索项目</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+<a class="inline-flex items-center gap-space-sm px-space-lg py-2.5 rounded-lg bg-surface-container-high text-on-surface font-body-md hover:bg-surface-bright transition-all" href="#research">
+<span class="material-symbols-outlined text-[16px] text-primary">science</span>
+<span>Read Research 研究路线</span>
+</a>
+<div class="hidden sm:flex items-center gap-space-xs px-space-md py-2 rounded-lg bg-surface-container-low text-on-surface-variant font-label-mono text-code-sm">
+<span class="material-symbols-outlined text-[15px] text-secondary">flight_takeoff</span>
+<span>Current Base: Tokyo (UTC+9)</span>
+</div>
+</div>
+</div>
+<!-- Bento Grid Metric & Core Identity Matrix -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md mt-space-xl">
+<!-- Bento 1: Core Axiom -->
+<div class="md:col-span-5 bg-surface-container-low p-space-lg rounded-xl flex flex-col justify-between shadow-sm relative overflow-hidden group">
+<div class="absolute -right-12 -bottom-12 w-48 h-48 bg-primary/5 rounded-full blur-2xl group-hover:bg-primary/10 transition-colors"></div>
+<div>
+<div class="flex items-center justify-between font-label-mono text-code-sm text-outline mb-space-md">
+<span>PHILOSOPHY // 01</span>
+<span class="text-secondary font-code-sm">PARADIGM</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface mb-space-sm">Architecting Freedom</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              自由并非放任无度，而是系统在极端扰动下的优雅降级。通过极致精简外部依赖与契约式工程，将数字基础设施的控制权完整交还于个体，释放最高维度的创造潜能。
+            </p>
+</div>
+<div class="mt-space-lg flex items-center justify-between pt-space-md text-outline font-label-mono text-code-sm">
+<span>RESILIENCE OVER ENTROPY</span>
+<span class="text-on-surface font-medium">MAX AUTONOMY</span>
+</div>
+</div>
+<!-- Bento 2: Global Mesh Latency & Node Monitor -->
+<div class="md:col-span-7 bg-surface-container-low p-space-lg rounded-xl flex flex-col justify-between shadow-sm">
+<div>
+<div class="flex items-center justify-between font-label-mono text-code-sm text-outline mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="inline-block w-2 h-2 rounded-full bg-secondary"></span>
+<span>GLOBAL EDGE LATENCY</span>
+</div>
+<span class="text-on-surface font-code-sm">18 ACTIVE NODES</span>
+</div>
+<!-- Mini SVG Real-time Signal Graphic -->
+<div class="w-full h-24 my-space-sm bg-surface-container-lowest rounded-lg p-space-sm relative overflow-hidden flex items-end">
+<svg class="w-full h-full text-primary" fill="none" preserveaspectratio="none" viewbox="0 0 400 60">
+<path d="M0,45 Q50,20 100,35 T200,15 T300,40 T400,22" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"></path>
+<path d="M0,45 Q50,20 100,35 T200,15 T300,40 T400,22 L400,60 L0,60 Z" fill="currentColor" fill-opacity="0.08"></path>
+<circle cx="100" cy="35" fill="#8AB4F8" r="3"></circle>
+<circle cx="200" cy="15" fill="#8AB4F8" r="3"></circle>
+<circle cx="300" cy="40" fill="#8AB4F8" r="3"></circle>
+</svg>
+</div>
+<div class="grid grid-cols-3 gap-space-sm text-center">
+<div class="bg-surface-container p-space-sm rounded">
+<div class="font-label-mono text-code-sm text-outline">NRT-TOKYO</div>
+<div class="font-headline-sm text-headline-sm text-secondary font-medium">4ms</div>
+<div class="font-label-mono text-code-sm text-on-surface-variant">Primary Mesh</div>
+</div>
+<div class="bg-surface-container p-space-sm rounded">
+<div class="font-label-mono text-code-sm text-outline">SFO-PACIFIC</div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-medium">82ms</div>
+<div class="font-label-mono text-code-sm text-on-surface-variant">US Gateway</div>
+</div>
+<div class="bg-surface-container p-space-sm rounded">
+<div class="font-label-mono text-code-sm text-outline">FRA-CENTRAL</div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-medium">110ms</div>
+<div class="font-label-mono text-code-sm text-on-surface-variant">EU Relay</div>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between font-label-mono text-code-sm text-outline mt-space-md">
+<span>PROTOCOL: QUIC / WIREGUARD</span>
+<span class="text-secondary font-medium">SYNC COMPLETE [P99 &lt; 95ms]</span>
+</div>
+</div>
+<!-- Bento 3: Full-width Toolchain & Primitives -->
+<div class="md:col-span-12 bg-surface-container-low p-space-lg rounded-xl flex flex-col md:flex-row md:items-center justify-between gap-space-md shadow-sm">
+<div class="flex flex-col">
+<span class="font-label-mono text-code-sm text-outline uppercase">CORE PRIMITIVES &amp; SYSTEM STACK</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">零妥协的技术选型与工匠基底</span>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm font-label-mono text-code-sm">
+<span class="px-space-md py-1.5 rounded-lg bg-surface-container text-primary flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>Rust
+            </span>
+<span class="px-space-md py-1.5 rounded-lg bg-surface-container text-on-surface">TypeScript</span>
+<span class="px-space-md py-1.5 rounded-lg bg-surface-container text-on-surface">Go (Golang)</span>
+<span class="px-space-md py-1.5 rounded-lg bg-surface-container text-on-surface">WebAssembly</span>
+<span class="px-space-md py-1.5 rounded-lg bg-surface-container text-secondary flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Raft &amp; CRDTs
+            </span>
+<span class="px-space-md py-1.5 rounded-lg bg-surface-container text-on-surface">NixOS / Linux</span>
+<span class="px-space-md py-1.5 rounded-lg bg-surface-container text-on-surface-variant">Tailwind Engine</span>
+</div>
+</div>
+</div>
+<!-- Curated Projects Showcase Section -->
+<div class="mt-28 flex flex-col" id="projects">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm mb-space-lg">
+<div>
+<div class="font-label-mono text-code-sm text-primary tracking-widest uppercase mb-1">02 // ARTIFACTS</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Featured Projects &amp; Systems</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+            以开源与生产级标准打造的独立工具。专注于极小内存占用、离线协同及纯粹的无缝交互体验。
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Project 1: NexusDB -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between hover:bg-surface-container transition-all group shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-label-mono text-code-sm px-space-sm py-0.5 rounded bg-secondary-container/60 text-secondary">
+                  v1.4 Released
+                </span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors text-[20px]">
+                  arrow_outward
+                </span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors flex items-center gap-2">
+                NexusDB
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm">
+                超轻量分布式时序存储引擎，专为工业边缘设备优化。以极低 CPU 负载实现零配置集群同步与快照压缩。
+              </p>
+</div>
+<div class="mt-space-lg pt-space-md border-t-0 flex items-center justify-between font-label-mono text-code-sm text-outline">
+<span class="text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-primary">star</span> 2.4k stars
+              </span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">Rust</span>
+</div>
+</div>
+<!-- Project 2: Aura Canvas -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between hover:bg-surface-container transition-all group shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-label-mono text-code-sm px-space-sm py-0.5 rounded bg-primary-container/40 text-primary">
+                  Active Beta
+                </span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors text-[20px]">
+                  arrow_outward
+                </span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors flex items-center gap-2">
+                Aura Canvas
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm">
+                面向系统思考者的 120fps 低延迟无限画板。支持双向数据流映射、无限嵌套拓扑以及本地优先的离线状态保证。
+              </p>
+</div>
+<div class="mt-space-lg pt-space-md border-t-0 flex items-center justify-between font-label-mono text-code-sm text-outline">
+<span class="text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-secondary">memory</span> WebGL Canvas
+              </span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">TS / Rust</span>
+</div>
+</div>
+<!-- Project 3: Khora OS Config -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between hover:bg-surface-container transition-all group shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-label-mono text-code-sm px-space-sm py-0.5 rounded bg-surface-container-high text-on-surface-variant">
+                  Stable
+                </span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors text-[20px]">
+                  arrow_outward
+                </span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-primary transition-colors flex items-center gap-2">
+                Khora Flake
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm">
+                个人跨架构基础设施与 NixOS 声明式工作流体系。构建具备确定性、即时复刻与零配置还原的终极终端生态。
+              </p>
+</div>
+<div class="mt-space-lg pt-space-md border-t-0 flex items-center justify-between font-label-mono text-code-sm text-outline">
+<span class="text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-outline">terminal</span> Nix Flakes
+              </span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">Nix / Lua</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Digital Nomad Journey & Workspace Matrix -->
+<div class="mt-28 flex flex-col">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm mb-space-lg">
+<div>
+<div class="font-label-mono text-code-sm text-secondary tracking-widest uppercase mb-1">03 // GEOGRAPHY &amp; HARDWARE</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Nomad Chronicle &amp; Studio Setup</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+            物理地理与数字虚拟的映射记录。在高度动态的旅居中保持恒常的工程专注与极简随身负载。
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md">
+<!-- Timeline Card -->
+<div class="md:col-span-7 bg-surface-container-low p-space-lg rounded-xl flex flex-col justify-between shadow-sm">
+<div class="font-label-mono text-code-sm text-outline mb-space-md uppercase">RESIDENTIAL FOOTPRINTS</div>
+<div class="flex flex-col gap-space-md">
+<div class="flex items-start gap-space-md relative">
+<div class="w-2.5 h-2.5 rounded-full bg-secondary mt-1.5 shrink-0 shadow-[0_0_10px_rgba(152,210,189,0.5)]"></div>
+<div class="flex-1">
+<div class="flex flex-wrap items-center justify-between gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface">Tokyo · 涩谷工作室</span>
+<span class="font-label-mono text-code-sm text-secondary">2025.01 — PRESENT</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                    高密度数字节点试验，专注于边缘分布式系统的一致性仿真验证与本地硬件集成。
+                  </p>
+</div>
+</div>
+<div class="flex items-start gap-space-md relative">
+<div class="w-2.5 h-2.5 rounded-full bg-outline-variant mt-1.5 shrink-0"></div>
+<div class="flex-1">
+<div class="flex flex-wrap items-center justify-between gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface">Chiang Mai · 山居代码</span>
+<span class="font-label-mono text-code-sm text-outline">2024.08 — 2024.12</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                    热带低干扰驻留，重构 NexusDB 内存存储分配器与异步事件驱动调度器。
+                  </p>
+</div>
+</div>
+<div class="flex items-start gap-space-md relative">
+<div class="w-2.5 h-2.5 rounded-full bg-outline-variant mt-1.5 shrink-0"></div>
+<div class="flex-1">
+<div class="flex flex-wrap items-center justify-between gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface">Kyoto · 静心研究阶段</span>
+<span class="font-label-mono text-code-sm text-outline">2024.03 — 2024.07</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                    系统研读近代共识算法论文，完成分布式日志复制形式化逻辑建模初版。
+                  </p>
+</div>
+</div>
+</div>
+<div class="mt-space-lg pt-space-md flex items-center justify-between font-label-mono text-code-sm text-outline">
+<span>TIMEZONE: UTC+9 / UTC+7</span>
+<span class="text-on-surface font-code-sm">CURRENT SPEED: 850 Mbps Symmetrical</span>
+</div>
+</div>
+<!-- Gear & Hardware Manifest -->
+<div class="md:col-span-5 bg-surface-container-low p-space-lg rounded-xl flex flex-col justify-between shadow-sm">
+<div>
+<div class="font-label-mono text-code-sm text-outline mb-space-md uppercase">ESSENTIAL RIG MANIFEST</div>
+<div class="space-y-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[18px] text-primary">laptop_mac</span>
+<span class="font-body-md text-on-surface">MacBook Pro 16" M3 Max</span>
+</div>
+<span class="font-label-mono text-code-sm text-outline">64GB / 2TB</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[18px] text-secondary">keyboard</span>
+<span class="font-body-md text-on-surface">HHKB Pro Hybrid Type-S</span>
+</div>
+<span class="font-label-mono text-code-sm text-outline">Blank Snow</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[18px] text-tertiary">photo_camera</span>
+<span class="font-body-md text-on-surface">Sony A7C II + 40mm G</span>
+</div>
+<span class="font-label-mono text-code-sm text-outline">Daily Visuals</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[18px] text-outline">edit_note</span>
+<span class="font-body-md text-on-surface">Kindle Scribe</span>
+</div>
+<span class="font-label-mono text-code-sm text-outline">Paperless Flow</span>
+</div>
+</div>
+</div>
+<div class="mt-space-md p-space-sm rounded bg-surface-container-lowest font-label-mono text-code-sm text-outline flex items-center justify-between">
+<span>TOTAL DRY WEIGHT</span>
+<span class="text-on-surface font-medium">4.2 kg (Single Backpack)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Research Roadmap & Milestones Section -->
+<div class="mt-28 flex flex-col" id="research">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm mb-space-lg">
+<div>
+<div class="font-label-mono text-code-sm text-primary tracking-widest uppercase mb-1">04 // RESEARCH &amp; HORIZONS</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Technical Roadmap 2025</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+            公开的研究课题与验证原型。通过小步快跑的仿真测试与实践记录，持续推进系统可靠性前沿。
+          </p>
+</div>
+<div class="bg-surface-container-low rounded-xl p-space-lg shadow-sm flex flex-col gap-space-lg">
+<!-- Milestone 1 -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="px-2 py-0.5 rounded bg-primary-container/40 text-primary font-label-mono text-code-sm">RESEARCH 75%</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">确定性仿真测试在分布式一致性协议中的落地</span>
+</div>
+<span class="font-label-mono text-code-sm text-outline">MILESTONE #03 // Q2 2025</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              借鉴 FoundationDB 的仿真测试哲学，在无损时钟与网络扰动模型下，自动化寻找并验证极端边缘竞态条件。
+            </p>
+<div class="w-full bg-surface-container-highest h-1.5 rounded-full mt-space-xs overflow-hidden">
+<div class="bg-primary h-full rounded-full w-3/4"></div>
+</div>
+</div>
+<!-- Milestone 2 -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="px-2 py-0.5 rounded bg-secondary-container/40 text-secondary font-label-mono text-code-sm">ACTIVE DEV 40%</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">离线优先（Local-First）CRDT 协同文档同步协议规范</span>
+</div>
+<span class="font-label-mono text-code-sm text-outline">MILESTONE #02 // Q3 2025</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              构建基于 WebRTC 与零信任存储桶的去中心化增量压缩传输层，兼顾极速首屏与即时多端无锁收敛。
+            </p>
+<div class="w-full bg-surface-container-highest h-1.5 rounded-full mt-space-xs overflow-hidden">
+<div class="bg-secondary h-full rounded-full w-2/5"></div>
+</div>
+</div>
+<!-- Milestone 3 -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-mono text-code-sm">PLANNED 15%</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">物理世界与数字游民能源自给自足方案实践白皮书</span>
+</div>
+<span class="font-label-mono text-code-sm text-outline">MILESTONE #01 // Q4 2025</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              探索便携式光伏、离网储能与 Starlink 终端在极端户外条件下的高能效计算矩阵配置方案。
+            </p>
+<div class="w-full bg-surface-container-highest h-1.5 rounded-full mt-space-xs overflow-hidden">
+<div class="bg-outline h-full rounded-full w-[15%]"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Minimal Substack / Newsletter & Terminal Connect Card -->
+<div class="mt-28 bg-surface-container-low rounded-xl p-space-xl shadow-sm relative overflow-hidden">
+<div class="max-w-2xl">
+<div class="font-label-mono text-code-sm text-primary tracking-widest uppercase mb-1">STAY CONNECTED</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mb-space-xs">
+            Receive technical field notes &amp; memos.
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-lg">
+            不定期的技术深度备忘录、架构拓扑图谱及游民工作流思考。无垃圾邮件，极简纯文字，支持随时退订。
+          </p>
+<form class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-sm" onsubmit="event.preventDefault(); this.querySelector('input').value = ''; alert('Acknowledged. You are registered.');">
+<div class="relative flex-1">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[18px]">terminal</span>
+<input class="w-full bg-surface-container-lowest text-on-surface placeholder:text-outline/60 text-code-md font-label-mono pl-10 pr-space-md py-2.5 rounded-lg focus:outline-none focus:ring-1 focus:ring-primary shadow-inner" placeholder="architect@domain.xyz" required="" type="email"/>
+</div>
+<button class="px-space-lg py-2.5 rounded-lg bg-primary text-on-primary font-body-md font-medium hover:bg-primary-fixed transition-colors flex items-center justify-center gap-1.5 shrink-0" type="submit">
+<span>Subscribe</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</form>
+<div class="flex flex-wrap items-center gap-space-md mt-space-lg pt-space-md text-outline font-label-mono text-code-sm">
+<a class="hover:text-primary transition-colors flex items-center gap-1" href="https://github.com" rel="noopener noreferrer" target="_blank">
+<span>GitHub</span><span class="text-xs">↗</span>
+</a>
+<span class="text-surface-variant">•</span>
+<a class="hover:text-primary transition-colors flex items-center gap-1" href="https://substack.com" rel="noopener noreferrer" target="_blank">
+<span>Substack</span><span class="text-xs">↗</span>
+</a>
+<span class="text-surface-variant">•</span>
+<a class="hover:text-primary transition-colors flex items-center gap-1" href="https://x.com" rel="noopener noreferrer" target="_blank">
+<span>X (Twitter)</span><span class="text-xs">↗</span>
+</a>
+<span class="text-surface-variant">•</span>
+<a class="hover:text-primary transition-colors flex items-center gap-1" href="/rss.xml">
+<span>RSS Feed</span><span class="text-xs">↗</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></main><footer class="w-full bg-surface-container-lowest py-space-xl"><div class="max-w-[1200px] mx-auto px-gutter"><div class="flex flex-col md:flex-row items-center justify-between gap-space-md pt-space-lg"><div class="flex flex-wrap items-center gap-space-md"><div class="flex items-center gap-space-xs font-code-sm text-code-sm text-on-surface-variant"><span class="material-symbols-outlined text-[14px] text-outline">speed</span><span>24ms</span></div><div class="flex items-center gap-space-xs font-code-sm text-code-sm text-secondary"><span class="relative flex h-1.5 w-1.5"><span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-secondary"></span></span><span>All systems normal</span></div><div class="flex items-center gap-space-xs font-code-sm text-code-sm text-on-surface-variant"><span class="material-symbols-outlined text-[14px] text-outline">schedule</span><span>UTC+9 Tokyo</span></div></div><div class="flex items-center gap-space-sm font-code-sm text-code-sm text-outline"><span>© 2025 SHANE. All rights reserved.</span></div></div></div></footer></body></html>

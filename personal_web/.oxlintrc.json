@@ -1,0 +1,18 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["react", "oxc"],
+  "rules": {
+    "react/rules-of-hooks": "error",
+    "react/only-export-components": ["warn", { "allowConstantExport": true }]
+  },
+  "overrides": [
+    {
+      // 第三方动效组件:里面有个自定义的 WebGL 辅助函数叫 use(),会被误判为 React Hook
+      "files": ["src/effects/**"],
+      "rules": {
+        "react/rules-of-hooks": "off",
+        "react-hooks/rules-of-hooks": "off"
+      }
+    }
+  ]
+}
